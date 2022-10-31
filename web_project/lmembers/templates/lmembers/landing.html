@@ -1,0 +1,40 @@
+{% extends 'lmembers/base_full_width.html' %}
+{% block main_area %}
+
+<section style="min-height: 910px;">
+    <div class="container mt-4">
+        <div class="row">
+
+            <div class="col-12">
+                <h4>L members</h4>
+                <br/>
+                <div>
+                    ※ 회원 정보를 바탕으로 수요 예측, 추천 시스템!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text">L members<br>Find yourself like never before</div>      
+                  
+</section>
+<style>
+    body { background: url('https://www.lmembers.co.kr/pc/image-view/main-visual/1') center center  no-repeat; }
+    section { color: #fff; position: relative; }
+    section h4 { font-weight: 900; }
+
+    section .text {
+        font-family: 'Abril Fatface';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+        font-size: 60px;
+        line-height: 76px;
+    }
+</style>
+{% endblock %}
